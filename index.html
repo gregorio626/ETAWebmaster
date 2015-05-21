@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Welcome to ETA!</title>
+<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="./css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" type="text/css" href="./css/magnific-popup.css">
+<link rel="stylesheet" href="./css/font-awesome-4.3.0/css/font-awesome.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/move-top.js"></script>
+<script type="text/javascript" src="./js/easing.js"></script>
+		
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+	</head>
+	<body>
+			<div id="home" class="header">
+				<div class="container">
+					<div class="top-header">
+						<div class="logo">
+							<a href="index.html"><img style="height: 5.5em; width: 33em" src="./images/logo.jpg" alt=""></a>
+						</div>
+						<nav class="top-nav">
+							<ul class="top-nav">
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="./about/about.html">About</a></li>
+								<li><a href="./tsa_chapter/tsa_chapter.html">TSA Chapter</a></li>
+								<li><a href="./design_brief/design_brief.html">Design Brief</a></li>
+								<div class="clearfix"></div>
+							</ul>
+							<a href="#" id="pull"><img src="./images/menu-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			    <div class="clearfix"> </div>
+
+		<div class="service-section">
+			<div class="container">
+				<div class="slider-top">
+					<h1>Welcome to ETA</h1>
+					<h2>The Engineering and Technologies Academy</h2>
+					<span class="line">
+						<span class="sub-line"></span>
+					</span>
+					<h4>Roosevelt High School</h4>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="row serve-row">
+					<a href="./about/about.html"><div class="col-md-4 serve-column">
+						<i class="fa fa-cogs fa-4x"></i>
+						<h3>About ETA</h3>
+						<p>Learn about the benefits of joining our fantastic magnet program.</p>
+					</div></a>
+					<a href="./tsa_chapter/tsa_chapter.html"><div class="col-md-4 serve-column ">
+						<i class="fa fa-flask"></i>
+						<i class="fa fa-calculator"></i>
+						<i class="fa fa-desktop"></i>
+						<i class="fa fa-cog"></i>
+						<h3>TSA Chapter</h3>
+						<p>Learn about our officer committee as well as the standing of our organization.</p>
+					</div></a>
+					<a href="./design_brief/design_brief.html"><div class="col-md-4 serve-column">
+						<i class="desbrf fa fa-recycle fa-4x"></i>
+						<h3>Design Brief</h3>
+						<p>Learn about the negatives of and how to address the issue of "e-waste"</p>
+					</div></a>
+					<div class="clearfix"></div>
+				<span></span>
+			</div>
+		</div>
+	</div>
+	<div id="contact" class="contact">
+		<div class="container">
+			<h3>contact us</h3>
+			<div class="contact-main">
+				<div class="col-md-4 contect-text">
+					<div class="Address">
+					<h4>External Links</h4>
+	     			<span>Visit our school district and more!</span>
+					<ul class="links">
+						<li><a href="http://www.neisd.net/">NEISD - North East Independent School District</a></li>
+						<li><a href="http://www.neisd.net/data/">DATA - Design and Technology Academy</a></li>
+						<li><a href="http://www.neisd.net/roos/">Theodore Roosevelt High School Main</a></li>
+					</ul>
+					</div>
+				</div>
+				<div class="col-md-4 contect-text">
+					<div class="Address">
+					<h4>Contact ETA</h4>
+	     			<span>You can arrange for a shadow day at ETA!</span>
+					<ul class="links">
+						<li>Engineering and Technologies Academy</li>
+						<li>at Roosevelt High School</a></li>
+						<li>5110 Walzem Road</li>
+						<li>San Antonio, Texas 78218</li>
+						<li>Phone: (210)-356-2317</li>
+						<li>Fax: (210)-620-1227</li>
+					</ul>
+				</div>
+				</div>
+                                <div class="col-md-4 contect-text">
+                                        <div class="Address">
+                                        <h4>Social Media</h4>
+                                <span>Follow ETA on social media!</span>
+                                        <ul class="links">
+                                                <li>Twitter</li>
+                                                <li>Facebook</a></li>
+                                                <li>Instagram</li>
+                                        </ul>
+                                </div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

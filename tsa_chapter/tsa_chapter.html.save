@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>TSA Chapter 20 - ETA</title>
+<link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="../css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" type="text/css" href="../css/magnific-popup.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+		<script type="text/javascript" src="../js/move-top.js"></script>
+		<script type="text/javascript" src="../js/easing.js"></script>
+		
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--start-top-nav-script-->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+</head>
+<body>
+		<div class="header-top">
+			<div class="container">
+					<div class="top-header">
+						<div class="logo">
+							<a href="../index.html"><img style="height: 91px; width: 532px" src="../images/logo.jpg" alt=""></a>
+						</div>
+						<nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="../index.html">Home</a></li>
+								<li><a href="../about/about.html">About</a></li>
+								<li class="active"><a href="./tsa_chapter.html">TSA Chapter</a></li>
+								<li><a href="../design_brief/design_brief.html">Design Brief</a></li>
+								<div class="clearfix"></div>
+							</ul>
+							<a href="#" id="pull"><img src="../images/menu-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+		</div>
+		<div class="about-main">
+		<div class="container">
+			<div class="main-about">
+				<h3>ABOUT Our TSA chapter</h3>
+				<span class="line1"></span>
+				<div class="main-text">
+					<h4>We are TSA Chapter 20</h4>
+					<p class="para1"> Our TSA chapter takes great pride in our large and continually growing organization that submitted over 850 state projects in the 2014-15 school year.</p><br>
+					<p class="para1 two">Our TSA chapter has the honor of possessing two Texas TSA State Officers, Christian Sifuentes and Edmundo Colorado</p>
+				</div>
+			<div class="clearfix"></div>
+			</div>
+			</div>
+		</div>
+	<div align="center" class="about-section">
+			<br/>
+		<div class="container-about">
+			<div class="col-md-8 about-text">
+				<p>TSA Chapter 20 has an efficient officer committee that shows dedication to providing the best for the chapter and its members. As a chapter, we also take pride in our work.</p>
+				<div class="row about-row">
+<script language="javascript">
+function changeImage(){
+if(document.getElementById("crankster").src == "../images/gavel.gif"){
+document.getElementById("crankster").src = "../images/christiansifuentes.jpg";
+}
+else{
+document.getElementById("crankster").src = "../images/gavel.gif";
+}
+}
+ </script>
+					<div class="col-md-6 about-grid">
+						<img id="crankster" src="../images/gavel.gif" alt="Christian Sifuentes" style="height:160px; width:160px" onclick="changeImage()">
+						<h4>Christian Sifuentes</h4>
+						<p>President</p>
+						<div class="clearfix"></div>
+					</div>
+					<div class="col-md-6 about-grid">
+						<img src="../images/ashlynbain.jpg" alt="Ashlyn Bain">
+						<h4>Ashlyn Bain</h4>
+						<p>Vice President</p>
+						<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="col-md-8 about-text">
+				<div class="row about-row">
+					<div class="col-md-6 about-grid">
+						<img src="../images/jasonconklin.jpg" alt="Jason Conklin">
+						<h4>Jason Conklin</h4>
+						<p>Secretary</p>
+						<div class="clearfix"></div>
+					</div>
+					<div class="col-md-6 about-grid">
+						<img src="../images/alexlee.jpg" alt="Alex Lee">
+						<h4>Alex Lee</h4>
+						<p>Treasurer</p>
+						<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="col-md-8 about-text">
+				<div class="row about-row">
+					<div class="col-md-6 about-grid">
+						<img src="../images/dimitrigonzalez.jpg" alt="Dimitri Gonzalez">
+						<h4>Dimitri Gonzalez</h4>
+						<p>Reporter</p>
+						<div class="clearfix"></div>
+					</div>
+					<div class="col-md-6 about-grid">
+						<img src="../images/ahntran.jpg" alt="Anh Tran">
+						<h4>Anh Tran</h4>
+						<p>Seargeant-at-Arms</p>
+						<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<a class="dow-btn" href="./portfolio.html">TO PORTFOLIO</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+			<div class="clearfix"></div>
+	<div class="clearfix"></div>
+</body>
+</html>		
